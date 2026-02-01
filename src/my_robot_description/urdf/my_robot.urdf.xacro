@@ -39,7 +39,13 @@
                izz="${(2/5) * m * (r*r)}" />
     </inertial>
   </xacro:macro>
+<link name="base_footprint"/>
 
+  <joint name="base_joint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+    <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+  </joint>	
   <link name="base_link">
   </link>
 
@@ -162,7 +168,7 @@
       <max_wheel_acceleration>10.0</max_wheel_acceleration>
 
       <odometry_frame>odom</odometry_frame>
-      <robot_base_frame>base_link</robot_base_frame>
+      <robot_base_frame>base_footprint</robot_base_frame>
 
       <publish_odom>true</publish_odom>
       <publish_odom_tf>true</publish_odom_tf>

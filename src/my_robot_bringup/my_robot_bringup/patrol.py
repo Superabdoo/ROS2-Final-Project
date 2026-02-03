@@ -46,10 +46,9 @@ def main(args=None):
     
     # --- CONFIGURATION ---
     # Set your two patrol points here
-    location_A = {'x': 2.0, 'y': 0.0}
-    location_B = {'x': -2.0, 'y': 0.0}
+    location_A = {'x': 4.0, 'y': 3.0}   
+    location_B = {'x': 0.0, 'y': 0.0}  
     # ---------------------
-
     while True: # Loop forever
         # Go to A
         patrol.go_to_pose(location_A['x'], location_A['y'])

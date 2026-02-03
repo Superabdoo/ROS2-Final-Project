@@ -33,9 +33,9 @@ class TurtleCSVPathPlayer(Node):
         self.declare_parameter('offset_y', 5.5)
 
         self.declare_parameter('goal_tolerance', 0.15)
-        self.declare_parameter('max_lin', 2.0)
+        self.declare_parameter('max_lin', 20.0)
         self.declare_parameter('max_ang', 4.0)
-        self.declare_parameter('kp_lin', 1.2)
+        self.declare_parameter('kp_lin', 12.0)
         self.declare_parameter('kp_ang', 5.0)
         self.declare_parameter('rate_hz', 30.0)
 

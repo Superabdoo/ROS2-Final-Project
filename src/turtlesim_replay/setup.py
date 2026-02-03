@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'player = turtlesim_replay.turtlesim_player:main',
         ],
     },
 )

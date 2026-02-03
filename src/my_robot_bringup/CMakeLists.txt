@@ -25,6 +25,6 @@ endif()
 
 ament_package()
 install(
-  DIRECTORY launch
+  DIRECTORY launch maps config
   DESTINATION share/${PROJECT_NAME}
 )

@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'recorder = path_recorder.path_to_csv_recorder:main',
         ],
     },
 )

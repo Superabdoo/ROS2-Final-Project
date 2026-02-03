@@ -20,7 +20,7 @@ def generate_launch_description():
         launch_arguments={
             'use_sim_time': 'true',
             'map': map_file,
-            'params_file': os.path.join(pkg_nav2_bringup, 'params', 'nav2_params.yaml')
+            'params_file': os.path.join(pkg_my_robot_bringup, 'config', 'my_nav2_params.yaml')
         }.items()
     )
 

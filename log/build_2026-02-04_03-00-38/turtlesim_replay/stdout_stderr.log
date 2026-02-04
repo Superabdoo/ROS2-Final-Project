@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/turtlesim_replay/turtlesim_replay.egg-info
+writing ../../build/turtlesim_replay/turtlesim_replay.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlesim_replay/turtlesim_replay.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlesim_replay/turtlesim_replay.egg-info/entry_points.txt
+writing requirements to ../../build/turtlesim_replay/turtlesim_replay.egg-info/requires.txt
+writing top-level names to ../../build/turtlesim_replay/turtlesim_replay.egg-info/top_level.txt
+writing manifest file '../../build/turtlesim_replay/turtlesim_replay.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlesim_replay/turtlesim_replay.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlesim_replay/turtlesim_replay.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rhmona/robot_ws/build/turtlesim_replay/build
+creating /home/rhmona/robot_ws/build/turtlesim_replay/build/lib
+creating /home/rhmona/robot_ws/build/turtlesim_replay/build/lib/turtlesim_replay
+copying turtlesim_replay/__init__.py -> /home/rhmona/robot_ws/build/turtlesim_replay/build/lib/turtlesim_replay
+copying turtlesim_replay/turtlesim_player.py -> /home/rhmona/robot_ws/build/turtlesim_replay/build/lib/turtlesim_replay
+running install
+running install_lib
+creating /home/rhmona/robot_ws/install/turtlesim_replay/lib/python3.10/site-packages/turtlesim_replay
+copying /home/rhmona/robot_ws/build/turtlesim_replay/build/lib/turtlesim_replay/__init__.py -> /home/rhmona/robot_ws/install/turtlesim_replay/lib/python3.10/site-packages/turtlesim_replay
+copying /home/rhmona/robot_ws/build/turtlesim_replay/build/lib/turtlesim_replay/turtlesim_player.py -> /home/rhmona/robot_ws/install/turtlesim_replay/lib/python3.10/site-packages/turtlesim_replay
+byte-compiling /home/rhmona/robot_ws/install/turtlesim_replay/lib/python3.10/site-packages/turtlesim_replay/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rhmona/robot_ws/install/turtlesim_replay/lib/python3.10/site-packages/turtlesim_replay/turtlesim_player.py to turtlesim_player.cpython-310.pyc
+running install_data
+creating /home/rhmona/robot_ws/install/turtlesim_replay/share/ament_index
+creating /home/rhmona/robot_ws/install/turtlesim_replay/share/ament_index/resource_index
+creating /home/rhmona/robot_ws/install/turtlesim_replay/share/ament_index/resource_index/packages
+copying resource/turtlesim_replay -> /home/rhmona/robot_ws/install/turtlesim_replay/share/ament_index/resource_index/packages
+copying package.xml -> /home/rhmona/robot_ws/install/turtlesim_replay/share/turtlesim_replay
+running install_egg_info
+Copying ../../build/turtlesim_replay/turtlesim_replay.egg-info to /home/rhmona/robot_ws/install/turtlesim_replay/lib/python3.10/site-packages/turtlesim_replay-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtlesim_player script to /home/rhmona/robot_ws/install/turtlesim_replay/lib/turtlesim_replay
+writing list of installed files to '/home/rhmona/robot_ws/build/turtlesim_replay/install.log'

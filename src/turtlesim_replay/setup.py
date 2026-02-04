@@ -22,9 +22,10 @@ setup(
             'pytest',
         ],
     },
-    entry_points={
+	entry_points={
         'console_scripts': [
-            'player = turtlesim_replay.turtlesim_player:main',
-        ],
+    'turtlesim_player = turtlesim_replay.turtlesim_player:main',
+    'perfect_replay = turtlesim_replay.perfect_replay:main',
+],
     },
 )

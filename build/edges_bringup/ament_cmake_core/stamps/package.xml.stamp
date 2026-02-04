@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>edges_bringup</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="mustafahussameldin@gmail.com">mustafa</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- =============================================================
+       EXECUTION DEPENDENCY
+       <exec_depend>nodes_communication_pkg</exec_depend>
+       
+       - This tells ROS 2 that our package (edges_bringup) depends 
+         on another package (nodes_communication_pkg) **at runtime**.
+
+       - "exec_depend" = Execution Dependency:
+         It means that when we run nodes or launch files from 
+         this package, ROS 2 must also have "nodes_communication_pkg" 
+         installed and discoverable.
+
+       - Example:
+         If our launch file tries to start a node from 
+         nodes_communication_pkg, it will only work if that package 
+         is available in the workspace or installed in the system.
+
+       NOTE:
+         - Use <build_depend> for dependencies needed at *build time*.
+         - Use <exec_depend> for dependencies needed only at *runtime*.
+         - Many packages use both <build_depend> and <exec_depend> 
+           for core libraries like rclcpp or std_msgs.
+    ============================================================= -->
+  <exec_depend>edges_communication_pkg</exec_depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

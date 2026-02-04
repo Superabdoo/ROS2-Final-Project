@@ -1,0 +1,2 @@
+source;share/edges_bringup/environment/ament_prefix_path.sh
+source;share/edges_bringup/environment/path.sh

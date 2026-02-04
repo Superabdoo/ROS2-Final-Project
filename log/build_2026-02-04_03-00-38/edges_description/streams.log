@@ -1,0 +1,53 @@
+[0.011s] Invoking command in '/home/rhmona/robot_ws/build/edges_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rhmona/robot_ws/src/edges_description -DCMAKE_INSTALL_PREFIX=/home/rhmona/robot_ws/install/edges_description
+[0.170s] -- The C compiler identification is GNU 11.4.0
+[0.170s] -- The CXX compiler identification is GNU 11.4.0
+[0.170s] -- Detecting C compiler ABI info
+[0.170s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.172s] -- Detecting C compile features - done
+[0.174s] -- Detecting CXX compiler ABI info
+[0.240s] -- Detecting CXX compiler ABI info - done
+[0.245s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.245s] -- Detecting CXX compile features
+[0.245s] -- Detecting CXX compile features - done
+[0.247s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.378s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.485s] -- Configuring done
+[0.486s] -- Generating done
+[0.489s] -- Build files have been written to: /home/rhmona/robot_ws/build/edges_description
+[0.490s] Invoked command in '/home/rhmona/robot_ws/build/edges_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rhmona/robot_ws/src/edges_description -DCMAKE_INSTALL_PREFIX=/home/rhmona/robot_ws/install/edges_description
+[0.491s] Invoking command in '/home/rhmona/robot_ws/build/edges_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhmona/robot_ws/build/edges_description -- -j16 -l16
+[0.521s] Invoked command in '/home/rhmona/robot_ws/build/edges_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhmona/robot_ws/build/edges_description -- -j16 -l16
+[0.523s] Invoking command in '/home/rhmona/robot_ws/build/edges_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhmona/robot_ws/build/edges_description
+[0.529s] -- Install configuration: ""
+[0.529s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/urdf
+[0.529s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/urdf/material.xacro
+[0.529s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/urdf/edges_mobile_robot.xacro
+[0.529s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/urdf/desktop.ini
+[0.529s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/urdf/edges_gazebo.xacro
+[0.529s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/urdf/edges.urdf.xacro
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/urdf/lidar.xacro
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/rviz
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/rviz/desktop.ini
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/rviz/edges_config.rviz
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/worlds
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/worlds/desktop.ini
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/worlds/Test.world
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/worlds/x.world
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/ament_index/resource_index/package_run_dependencies/edges_description
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/ament_index/resource_index/parent_prefix_path/edges_description
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/environment/ament_prefix_path.sh
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/environment/ament_prefix_path.dsv
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/environment/path.sh
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/environment/path.dsv
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/local_setup.bash
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/local_setup.sh
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/local_setup.zsh
+[0.530s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/local_setup.dsv
+[0.532s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/package.dsv
+[0.532s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/ament_index/resource_index/packages/edges_description
+[0.532s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/cmake/edges_descriptionConfig.cmake
+[0.532s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/cmake/edges_descriptionConfig-version.cmake
+[0.532s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/package.xml
+[0.536s] Invoked command in '/home/rhmona/robot_ws/build/edges_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhmona/robot_ws/build/edges_description

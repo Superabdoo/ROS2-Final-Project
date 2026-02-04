@@ -1,0 +1,6 @@
+Invoking command in '/home/rhmona/robot_ws/build/edges_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rhmona/robot_ws/src/edges_description -DCMAKE_INSTALL_PREFIX=/home/rhmona/robot_ws/install/edges_description
+Invoked command in '/home/rhmona/robot_ws/build/edges_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rhmona/robot_ws/src/edges_description -DCMAKE_INSTALL_PREFIX=/home/rhmona/robot_ws/install/edges_description
+Invoking command in '/home/rhmona/robot_ws/build/edges_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhmona/robot_ws/build/edges_description -- -j16 -l16
+Invoked command in '/home/rhmona/robot_ws/build/edges_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhmona/robot_ws/build/edges_description -- -j16 -l16
+Invoking command in '/home/rhmona/robot_ws/build/edges_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhmona/robot_ws/build/edges_description
+Invoked command in '/home/rhmona/robot_ws/build/edges_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhmona/robot_ws/build/edges_description

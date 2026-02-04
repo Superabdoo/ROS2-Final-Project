@@ -1,3 +1,4 @@
 [console_scripts]
+perfect_replay = turtlesim_replay.perfect_replay:main
 turtlesim_player = turtlesim_replay.turtlesim_player:main
 

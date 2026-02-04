@@ -13,4 +13,5 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 turtlesim_replay/__init__.py
+turtlesim_replay/perfect_replay.py
 turtlesim_replay/turtlesim_player.py

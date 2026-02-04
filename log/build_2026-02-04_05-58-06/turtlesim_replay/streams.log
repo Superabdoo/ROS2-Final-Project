@@ -1,0 +1,22 @@
+[1.361s] Invoking command in '/home/rhmona/robot_ws/src/turtlesim_replay': PYTHONPATH=/home/rhmona/robot_ws/build/turtlesim_replay/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhmona/robot_ws/install/turtlesim_replay/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_replay build --build-base /home/rhmona/robot_ws/build/turtlesim_replay/build install --record /home/rhmona/robot_ws/build/turtlesim_replay/install.log --single-version-externally-managed install_data
+[1.496s] running egg_info
+[1.497s] writing ../../build/turtlesim_replay/turtlesim_replay.egg-info/PKG-INFO
+[1.497s] writing dependency_links to ../../build/turtlesim_replay/turtlesim_replay.egg-info/dependency_links.txt
+[1.497s] writing entry points to ../../build/turtlesim_replay/turtlesim_replay.egg-info/entry_points.txt
+[1.497s] writing requirements to ../../build/turtlesim_replay/turtlesim_replay.egg-info/requires.txt
+[1.497s] writing top-level names to ../../build/turtlesim_replay/turtlesim_replay.egg-info/top_level.txt
+[1.498s] reading manifest file '../../build/turtlesim_replay/turtlesim_replay.egg-info/SOURCES.txt'
+[1.498s] writing manifest file '../../build/turtlesim_replay/turtlesim_replay.egg-info/SOURCES.txt'
+[1.498s] running build
+[1.498s] running build_py
+[1.498s] running install
+[1.499s] running install_lib
+[1.499s] running install_data
+[1.499s] running install_egg_info
+[1.500s] removing '/home/rhmona/robot_ws/install/turtlesim_replay/lib/python3.10/site-packages/turtlesim_replay-0.0.0-py3.10.egg-info' (and everything under it)
+[1.500s] Copying ../../build/turtlesim_replay/turtlesim_replay.egg-info to /home/rhmona/robot_ws/install/turtlesim_replay/lib/python3.10/site-packages/turtlesim_replay-0.0.0-py3.10.egg-info
+[1.540s] running install_scripts
+[1.552s] Installing perfect_replay script to /home/rhmona/robot_ws/install/turtlesim_replay/lib/turtlesim_replay
+[1.552s] Installing turtlesim_player script to /home/rhmona/robot_ws/install/turtlesim_replay/lib/turtlesim_replay
+[1.553s] writing list of installed files to '/home/rhmona/robot_ws/build/turtlesim_replay/install.log'
+[1.578s] Invoked command in '/home/rhmona/robot_ws/src/turtlesim_replay' returned '0': PYTHONPATH=/home/rhmona/robot_ws/build/turtlesim_replay/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhmona/robot_ws/install/turtlesim_replay/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_replay build --build-base /home/rhmona/robot_ws/build/turtlesim_replay/build install --record /home/rhmona/robot_ws/build/turtlesim_replay/install.log --single-version-externally-managed install_data

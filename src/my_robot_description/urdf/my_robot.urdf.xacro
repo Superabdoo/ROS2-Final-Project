@@ -33,14 +33,7 @@
     </inertial>
   </xacro:macro>
 
-  <link name="base_footprint"/>
-
-  <joint name="base_joint" type="fixed">
-    <parent link="base_footprint"/>
-    <child link="base_link"/>
-    <origin xyz="0 0 0"/>
-  </joint>
-
+ 
   <link name="base_link"/>
 
   <link name="chassis">
@@ -173,7 +166,7 @@
     </sensor>
   </gazebo>
 
-  <gazebo>
+ <gazebo>
     <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
       <left_joint>left_wheel_joint</left_joint>
       <right_joint>right_wheel_joint</right_joint>
@@ -186,8 +179,9 @@
       <publish_odom>true</publish_odom>
       <publish_odom_tf>true</publish_odom_tf>
       <publish_wheel_tf>true</publish_wheel_tf>
+      
       <odometry_frame>odom</odometry_frame>
-      <robot_base_frame>base_footprint</robot_base_frame>
+      <robot_base_frame>base_link</robot_base_frame> 
     </plugin>
   </gazebo>
 

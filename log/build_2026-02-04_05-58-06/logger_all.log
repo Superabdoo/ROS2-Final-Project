@@ -1,0 +1,424 @@
+[0.056s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.056s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x722c7375e590>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x722c7375e020>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x722c7375e020>>, mixin_verb=('build',))
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.140s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rhmona/robot_ws'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_bringup) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_bringup) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_bringup) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_bringup) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_bringup) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_bringup) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_bringup) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_bringup) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/edges_bringup' with type 'ros.ament_cmake' and name 'edges_bringup'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_description) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_description) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_description) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_description) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_description) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_description) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_description) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_description) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/edges_description) by extension 'ros'
+[0.149s] DEBUG:colcon.colcon_core.package_identification:Package 'src/edges_description' with type 'ros.ament_cmake' and name 'edges_description'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[0.149s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_recorder) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_recorder) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_recorder) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_recorder) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_recorder) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_recorder) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_recorder) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_recorder) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_recorder) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/path_recorder' with type 'ros.ament_python' and name 'path_recorder'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_replay) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_replay) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_replay) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_replay) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_replay) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_replay) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_replay) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_replay) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_replay) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_replay' with type 'ros.ament_python' and name 'turtlesim_replay'
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.168s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 324 installed packages in /opt/ros/humble
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_bringup' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_bringup' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] DEBUG:colcon.colcon_core.verb:Building package 'edges_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rhmona/robot_ws/build/edges_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rhmona/robot_ws/install/edges_bringup', 'merge_install': False, 'path': '/home/rhmona/robot_ws/src/edges_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_description' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_description' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'edges_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] DEBUG:colcon.colcon_core.verb:Building package 'edges_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rhmona/robot_ws/build/edges_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rhmona/robot_ws/install/edges_description', 'merge_install': False, 'path': '/home/rhmona/robot_ws/src/edges_description', 'symlink_install': False, 'test_result_base': None}
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.190s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rhmona/robot_ws/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rhmona/robot_ws/install/my_robot_bringup', 'merge_install': False, 'path': '/home/rhmona/robot_ws/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.190s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rhmona/robot_ws/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rhmona/robot_ws/install/my_robot_description', 'merge_install': False, 'path': '/home/rhmona/robot_ws/src/my_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'path_recorder' build argument 'cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'path_recorder' build argument 'cmake_target' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'path_recorder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'path_recorder' build argument 'cmake_clean_cache' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'path_recorder' build argument 'cmake_clean_first' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'path_recorder' build argument 'cmake_force_configure' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'path_recorder' build argument 'ament_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'path_recorder' build argument 'catkin_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'path_recorder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.190s] DEBUG:colcon.colcon_core.verb:Building package 'path_recorder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rhmona/robot_ws/build/path_recorder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rhmona/robot_ws/install/path_recorder', 'merge_install': False, 'path': '/home/rhmona/robot_ws/src/path_recorder', 'symlink_install': False, 'test_result_base': None}
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_replay' build argument 'cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_replay' build argument 'cmake_target' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_replay' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_replay' build argument 'cmake_clean_cache' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_replay' build argument 'cmake_clean_first' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_replay' build argument 'cmake_force_configure' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_replay' build argument 'ament_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_replay' build argument 'catkin_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_replay' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.190s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_replay' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rhmona/robot_ws/build/turtlesim_replay', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rhmona/robot_ws/install/turtlesim_replay', 'merge_install': False, 'path': '/home/rhmona/robot_ws/src/turtlesim_replay', 'symlink_install': False, 'test_result_base': None}
+[0.190s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.191s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.191s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rhmona/robot_ws/src/edges_bringup' with build type 'ament_cmake'
+[0.191s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rhmona/robot_ws/src/edges_bringup'
+[0.193s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.193s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.193s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.194s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rhmona/robot_ws/src/edges_description' with build type 'ament_cmake'
+[0.195s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rhmona/robot_ws/src/edges_description'
+[0.195s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.195s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.196s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rhmona/robot_ws/src/my_robot_bringup' with build type 'ament_cmake'
+[0.196s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rhmona/robot_ws/src/my_robot_bringup'
+[0.196s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.196s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.198s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rhmona/robot_ws/src/my_robot_description' with build type 'ament_cmake'
+[0.198s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rhmona/robot_ws/src/my_robot_description'
+[0.198s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.198s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.199s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rhmona/robot_ws/src/path_recorder' with build type 'ament_python'
+[0.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_recorder', 'ament_prefix_path')
+[0.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/path_recorder/share/path_recorder/hook/ament_prefix_path.ps1'
+[0.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhmona/robot_ws/install/path_recorder/share/path_recorder/hook/ament_prefix_path.dsv'
+[0.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/path_recorder/share/path_recorder/hook/ament_prefix_path.sh'
+[0.200s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.200s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.202s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rhmona/robot_ws/src/turtlesim_replay' with build type 'ament_python'
+[0.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_replay', 'ament_prefix_path')
+[0.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/turtlesim_replay/share/turtlesim_replay/hook/ament_prefix_path.ps1'
+[0.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhmona/robot_ws/install/turtlesim_replay/share/turtlesim_replay/hook/ament_prefix_path.dsv'
+[0.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/turtlesim_replay/share/turtlesim_replay/hook/ament_prefix_path.sh'
+[0.203s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhmona/robot_ws/build/edges_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhmona/robot_ws/build/edges_bringup -- -j16 -l16
+[0.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhmona/robot_ws/build/edges_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhmona/robot_ws/build/edges_description -- -j16 -l16
+[0.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhmona/robot_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhmona/robot_ws/build/my_robot_bringup -- -j16 -l16
+[0.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhmona/robot_ws/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhmona/robot_ws/build/my_robot_description -- -j16 -l16
+[0.557s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rhmona/robot_ws/src/path_recorder'
+[0.558s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.558s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhmona/robot_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhmona/robot_ws/build/my_robot_bringup -- -j16 -l16
+[0.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhmona/robot_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhmona/robot_ws/build/my_robot_bringup
+[0.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhmona/robot_ws/build/edges_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhmona/robot_ws/build/edges_bringup -- -j16 -l16
+[0.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhmona/robot_ws/build/edges_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhmona/robot_ws/build/edges_bringup
+[0.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhmona/robot_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhmona/robot_ws/build/my_robot_description -- -j16 -l16
+[0.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhmona/robot_ws/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhmona/robot_ws/build/my_robot_description
+[0.715s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rhmona/robot_ws/src/turtlesim_replay'
+[0.715s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.716s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhmona/robot_ws/build/edges_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhmona/robot_ws/build/edges_description -- -j16 -l16
+[0.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhmona/robot_ws/build/edges_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhmona/robot_ws/build/edges_description
+[0.764s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[0.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhmona/robot_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhmona/robot_ws/build/my_robot_bringup
+[0.765s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_bringup' for CMake module files
+[0.765s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_bringup' for CMake config files
+[0.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[0.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[0.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhmona/robot_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[0.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_bringup/bin'
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_bringup/lib/python3.10/site-packages'
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_bringup/bin'
+[0.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhmona/robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[0.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhmona/robot_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[0.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_bringup' for CMake module files
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_bringup' for CMake config files
+[0.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[0.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhmona/robot_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_bringup/bin'
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_bringup/lib/python3.10/site-packages'
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_bringup/bin'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhmona/robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[0.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhmona/robot_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[0.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_description' for CMake module files
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_description' for CMake config files
+[0.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[0.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhmona/robot_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhmona/robot_ws/build/my_robot_description
+[0.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhmona/robot_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[0.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_description/bin'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_description/lib/python3.10/site-packages'
+[0.782s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_description/bin'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/my_robot_description/share/my_robot_description/package.ps1'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhmona/robot_ws/install/my_robot_description/share/my_robot_description/package.dsv'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/my_robot_description/share/my_robot_description/package.sh'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/my_robot_description/share/my_robot_description/package.bash'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/my_robot_description/share/my_robot_description/package.zsh'
+[0.783s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhmona/robot_ws/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[0.783s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_description' for CMake module files
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_description' for CMake config files
+[0.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhmona/robot_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_description/bin'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_description/lib/python3.10/site-packages'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/my_robot_description/bin'
+[0.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/my_robot_description/share/my_robot_description/package.ps1'
+[0.785s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhmona/robot_ws/install/my_robot_description/share/my_robot_description/package.dsv'
+[0.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/my_robot_description/share/my_robot_description/package.sh'
+[0.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/my_robot_description/share/my_robot_description/package.bash'
+[0.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/my_robot_description/share/my_robot_description/package.zsh'
+[0.786s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhmona/robot_ws/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[0.786s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(edges_bringup)
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_bringup' for CMake module files
+[0.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhmona/robot_ws/build/edges_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhmona/robot_ws/build/edges_bringup
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_bringup' for CMake config files
+[0.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('edges_bringup', 'cmake_prefix_path')
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/edges_bringup/share/edges_bringup/hook/cmake_prefix_path.ps1'
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhmona/robot_ws/install/edges_bringup/share/edges_bringup/hook/cmake_prefix_path.dsv'
+[0.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/edges_bringup/share/edges_bringup/hook/cmake_prefix_path.sh'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_bringup/bin'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_bringup/lib/pkgconfig/edges_bringup.pc'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_bringup/lib/python3.10/site-packages'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_bringup/bin'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/edges_bringup/share/edges_bringup/package.ps1'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhmona/robot_ws/install/edges_bringup/share/edges_bringup/package.dsv'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/edges_bringup/share/edges_bringup/package.sh'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/edges_bringup/share/edges_bringup/package.bash'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/edges_bringup/share/edges_bringup/package.zsh'
+[0.791s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhmona/robot_ws/install/edges_bringup/share/colcon-core/packages/edges_bringup)
+[0.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(edges_bringup)
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_bringup' for CMake module files
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_bringup' for CMake config files
+[0.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('edges_bringup', 'cmake_prefix_path')
+[0.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/edges_bringup/share/edges_bringup/hook/cmake_prefix_path.ps1'
+[0.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhmona/robot_ws/install/edges_bringup/share/edges_bringup/hook/cmake_prefix_path.dsv'
+[0.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/edges_bringup/share/edges_bringup/hook/cmake_prefix_path.sh'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_bringup/bin'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_bringup/lib/pkgconfig/edges_bringup.pc'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_bringup/lib/python3.10/site-packages'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_bringup/bin'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/edges_bringup/share/edges_bringup/package.ps1'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhmona/robot_ws/install/edges_bringup/share/edges_bringup/package.dsv'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/edges_bringup/share/edges_bringup/package.sh'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/edges_bringup/share/edges_bringup/package.bash'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/edges_bringup/share/edges_bringup/package.zsh'
+[0.796s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhmona/robot_ws/install/edges_bringup/share/colcon-core/packages/edges_bringup)
+[0.797s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(edges_description)
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_description' for CMake module files
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhmona/robot_ws/build/edges_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhmona/robot_ws/build/edges_description
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_description' for CMake config files
+[0.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('edges_description', 'cmake_prefix_path')
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/edges_description/share/edges_description/hook/cmake_prefix_path.ps1'
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhmona/robot_ws/install/edges_description/share/edges_description/hook/cmake_prefix_path.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/edges_description/share/edges_description/hook/cmake_prefix_path.sh'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_description/bin'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_description/lib/pkgconfig/edges_description.pc'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_description/lib/python3.10/site-packages'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_description/bin'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/edges_description/share/edges_description/package.ps1'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhmona/robot_ws/install/edges_description/share/edges_description/package.dsv'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/edges_description/share/edges_description/package.sh'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/edges_description/share/edges_description/package.bash'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/edges_description/share/edges_description/package.zsh'
+[0.800s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhmona/robot_ws/install/edges_description/share/colcon-core/packages/edges_description)
+[0.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(edges_description)
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_description' for CMake module files
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_description' for CMake config files
+[0.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('edges_description', 'cmake_prefix_path')
+[0.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/edges_description/share/edges_description/hook/cmake_prefix_path.ps1'
+[0.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhmona/robot_ws/install/edges_description/share/edges_description/hook/cmake_prefix_path.dsv'
+[0.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/edges_description/share/edges_description/hook/cmake_prefix_path.sh'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_description/bin'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_description/lib/pkgconfig/edges_description.pc'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_description/lib/python3.10/site-packages'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/edges_description/bin'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/edges_description/share/edges_description/package.ps1'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhmona/robot_ws/install/edges_description/share/edges_description/package.dsv'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/edges_description/share/edges_description/package.sh'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/edges_description/share/edges_description/package.bash'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/edges_description/share/edges_description/package.zsh'
+[0.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhmona/robot_ws/install/edges_description/share/colcon-core/packages/edges_description)
+[1.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhmona/robot_ws/src/turtlesim_replay': PYTHONPATH=/home/rhmona/robot_ws/build/turtlesim_replay/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhmona/robot_ws/install/turtlesim_replay/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_replay build --build-base /home/rhmona/robot_ws/build/turtlesim_replay/build install --record /home/rhmona/robot_ws/build/turtlesim_replay/install.log --single-version-externally-managed install_data
+[1.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhmona/robot_ws/src/path_recorder': PYTHONPATH=/home/rhmona/robot_ws/build/path_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhmona/robot_ws/install/path_recorder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_recorder build --build-base /home/rhmona/robot_ws/build/path_recorder/build install --record /home/rhmona/robot_ws/build/path_recorder/install.log --single-version-externally-managed install_data
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/path_recorder' for CMake module files
+[1.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhmona/robot_ws/src/path_recorder' returned '0': PYTHONPATH=/home/rhmona/robot_ws/build/path_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhmona/robot_ws/install/path_recorder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_recorder build --build-base /home/rhmona/robot_ws/build/path_recorder/build install --record /home/rhmona/robot_ws/build/path_recorder/install.log --single-version-externally-managed install_data
+[1.773s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/path_recorder' for CMake config files
+[1.773s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/path_recorder/lib'
+[1.773s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/path_recorder/bin'
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/path_recorder/lib/pkgconfig/path_recorder.pc'
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/path_recorder/lib/python3.10/site-packages'
+[1.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_recorder', 'pythonpath')
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/path_recorder/share/path_recorder/hook/pythonpath.ps1'
+[1.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhmona/robot_ws/install/path_recorder/share/path_recorder/hook/pythonpath.dsv'
+[1.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/path_recorder/share/path_recorder/hook/pythonpath.sh'
+[1.776s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/path_recorder/bin'
+[1.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path_recorder)
+[1.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/path_recorder/share/path_recorder/package.ps1'
+[1.777s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhmona/robot_ws/install/path_recorder/share/path_recorder/package.dsv'
+[1.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/path_recorder/share/path_recorder/package.sh'
+[1.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/path_recorder/share/path_recorder/package.bash'
+[1.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/path_recorder/share/path_recorder/package.zsh'
+[1.778s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhmona/robot_ws/install/path_recorder/share/colcon-core/packages/path_recorder)
+[1.779s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/turtlesim_replay' for CMake module files
+[1.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhmona/robot_ws/src/turtlesim_replay' returned '0': PYTHONPATH=/home/rhmona/robot_ws/build/turtlesim_replay/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhmona/robot_ws/install/turtlesim_replay/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_replay build --build-base /home/rhmona/robot_ws/build/turtlesim_replay/build install --record /home/rhmona/robot_ws/build/turtlesim_replay/install.log --single-version-externally-managed install_data
+[1.780s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/turtlesim_replay' for CMake config files
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/turtlesim_replay/lib'
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/turtlesim_replay/bin'
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/turtlesim_replay/lib/pkgconfig/turtlesim_replay.pc'
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/turtlesim_replay/lib/python3.10/site-packages'
+[1.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_replay', 'pythonpath')
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/turtlesim_replay/share/turtlesim_replay/hook/pythonpath.ps1'
+[1.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhmona/robot_ws/install/turtlesim_replay/share/turtlesim_replay/hook/pythonpath.dsv'
+[1.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhmona/robot_ws/install/turtlesim_replay/share/turtlesim_replay/hook/pythonpath.sh'
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/rhmona/robot_ws/install/turtlesim_replay/bin'
+[1.783s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_replay)
+[1.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/turtlesim_replay/share/turtlesim_replay/package.ps1'
+[1.783s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhmona/robot_ws/install/turtlesim_replay/share/turtlesim_replay/package.dsv'
+[1.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/turtlesim_replay/share/turtlesim_replay/package.sh'
+[1.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/turtlesim_replay/share/turtlesim_replay/package.bash'
+[1.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhmona/robot_ws/install/turtlesim_replay/share/turtlesim_replay/package.zsh'
+[1.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhmona/robot_ws/install/turtlesim_replay/share/colcon-core/packages/turtlesim_replay)
+[1.784s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.785s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.785s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.785s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.790s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.797s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.798s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rhmona/robot_ws/install/local_setup.ps1'
+[1.798s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rhmona/robot_ws/install/_local_setup_util_ps1.py'
+[1.799s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rhmona/robot_ws/install/setup.ps1'
+[1.799s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rhmona/robot_ws/install/local_setup.sh'
+[1.800s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rhmona/robot_ws/install/_local_setup_util_sh.py'
+[1.800s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rhmona/robot_ws/install/setup.sh'
+[1.801s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rhmona/robot_ws/install/local_setup.bash'
+[1.801s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rhmona/robot_ws/install/setup.bash'
+[1.801s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rhmona/robot_ws/install/local_setup.zsh'
+[1.801s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rhmona/robot_ws/install/setup.zsh'

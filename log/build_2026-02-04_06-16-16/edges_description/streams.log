@@ -1,0 +1,34 @@
+[0.020s] Invoking command in '/home/rhmona/robot_ws/build/edges_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhmona/robot_ws/build/edges_description -- -j16 -l16
+[0.163s] Invoked command in '/home/rhmona/robot_ws/build/edges_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhmona/robot_ws/build/edges_description -- -j16 -l16
+[0.171s] Invoking command in '/home/rhmona/robot_ws/build/edges_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhmona/robot_ws/build/edges_description
+[0.308s] -- Install configuration: ""
+[0.309s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/urdf
+[0.309s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/urdf/material.xacro
+[0.309s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/urdf/edges_mobile_robot.xacro
+[0.309s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/urdf/desktop.ini
+[0.309s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/urdf/edges_gazebo.xacro
+[0.309s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/urdf/edges.urdf.xacro
+[0.309s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/urdf/lidar.xacro
+[0.309s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/rviz
+[0.309s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/rviz/desktop.ini
+[0.310s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/rviz/edges_config.rviz
+[0.310s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/worlds
+[0.310s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/worlds/desktop.ini
+[0.310s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/worlds/Test.world
+[0.310s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/worlds/x.world
+[0.310s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/ament_index/resource_index/package_run_dependencies/edges_description
+[0.310s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/ament_index/resource_index/parent_prefix_path/edges_description
+[0.310s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/environment/ament_prefix_path.sh
+[0.310s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/environment/ament_prefix_path.dsv
+[0.310s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/environment/path.sh
+[0.310s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/environment/path.dsv
+[0.310s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/local_setup.bash
+[0.310s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/local_setup.sh
+[0.310s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/local_setup.zsh
+[0.311s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/local_setup.dsv
+[0.311s] -- Installing: /home/rhmona/robot_ws/install/edges_description/share/edges_description/package.dsv
+[0.311s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/ament_index/resource_index/packages/edges_description
+[0.311s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/cmake/edges_descriptionConfig.cmake
+[0.311s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/cmake/edges_descriptionConfig-version.cmake
+[0.311s] -- Up-to-date: /home/rhmona/robot_ws/install/edges_description/share/edges_description/package.xml
+[0.317s] Invoked command in '/home/rhmona/robot_ws/build/edges_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhmona/robot_ws/build/edges_description

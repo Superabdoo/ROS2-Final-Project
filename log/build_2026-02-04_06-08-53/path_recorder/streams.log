@@ -1,0 +1,21 @@
+[0.531s] Invoking command in '/home/rhmona/robot_ws/src/path_recorder': PYTHONPATH=/home/rhmona/robot_ws/build/path_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhmona/robot_ws/install/path_recorder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_recorder build --build-base /home/rhmona/robot_ws/build/path_recorder/build install --record /home/rhmona/robot_ws/build/path_recorder/install.log --single-version-externally-managed install_data
+[0.655s] running egg_info
+[0.656s] writing ../../build/path_recorder/path_recorder.egg-info/PKG-INFO
+[0.656s] writing dependency_links to ../../build/path_recorder/path_recorder.egg-info/dependency_links.txt
+[0.656s] writing entry points to ../../build/path_recorder/path_recorder.egg-info/entry_points.txt
+[0.656s] writing requirements to ../../build/path_recorder/path_recorder.egg-info/requires.txt
+[0.656s] writing top-level names to ../../build/path_recorder/path_recorder.egg-info/top_level.txt
+[0.657s] reading manifest file '../../build/path_recorder/path_recorder.egg-info/SOURCES.txt'
+[0.657s] writing manifest file '../../build/path_recorder/path_recorder.egg-info/SOURCES.txt'
+[0.657s] running build
+[0.657s] running build_py
+[0.657s] running install
+[0.658s] running install_lib
+[0.658s] running install_data
+[0.658s] running install_egg_info
+[0.659s] removing '/home/rhmona/robot_ws/install/path_recorder/lib/python3.10/site-packages/path_recorder-0.0.0-py3.10.egg-info' (and everything under it)
+[0.659s] Copying ../../build/path_recorder/path_recorder.egg-info to /home/rhmona/robot_ws/install/path_recorder/lib/python3.10/site-packages/path_recorder-0.0.0-py3.10.egg-info
+[0.660s] running install_scripts
+[0.672s] Installing path_to_csv_recorder script to /home/rhmona/robot_ws/install/path_recorder/lib/path_recorder
+[0.672s] writing list of installed files to '/home/rhmona/robot_ws/build/path_recorder/install.log'
+[0.686s] Invoked command in '/home/rhmona/robot_ws/src/path_recorder' returned '0': PYTHONPATH=/home/rhmona/robot_ws/build/path_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhmona/robot_ws/install/path_recorder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_recorder build --build-base /home/rhmona/robot_ws/build/path_recorder/build install --record /home/rhmona/robot_ws/build/path_recorder/install.log --single-version-externally-managed install_data
